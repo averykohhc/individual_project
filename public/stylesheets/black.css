@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #34495E;
+}
+
+iframe {
+  width: 100%;
+}
+button {
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 150px;
+  height: 150px;
+  border: 0;
+  border-radius: 50%;
+  padding: .3em 1em;
+  margin: 4em auto 3em;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(180deg, #39C2C9 0%, #3FC8C9 80%, #3FC8C9 100%);
+  box-shadow: 2px 5px 30px rgba(63, 200, 201, .4);
+
+  will-change: transform, filter;
+  transition: all 0.3s ease-out;
+}
+button .fa {
+  font-size: 100px;
+  line-height: 150px;
+  margin: 0;
+  text-shadow: 1px 2px 2px #2a8b90;
+}
+button:hover {
+  transform: scale(.92);
+}
+button:active {
+  filter: brightness(.8);
+}
+button:focus {
+  background: red;
+  outline: 0;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.3em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 10px;
+}
+.fa-github::before {
+    content: "\f09b";
+}
+
+.botui-app-container {
+  margin-top: 40px;
+  width: 410px;
+  height: 500px;
+}
+
+.botui-container {
+  background-color: #34495E;
+}
+.botui-message-content {
+  color: #FFFFFF;
+  background-color: #F1C40F;
+}
+
+.botui-message-content.human {
+  background-color: #3498DB;
+}
+
+.botui-actions-text-input {
+  color: #FFFFFF;
+  border-bottom: 1px solid #3498DB;
+  margin: 0;
+}
+
+.botui-actions-buttons-button {
+  line-height: 1 !important;
+  background-color: #3498DB;
+}
+
+.botui-message-content-link {
+  color: #F1C40F;
+}
+
+.botui-messages-container {
+  padding: 30px 0px;
+}
